@@ -8,4 +8,19 @@
     {
         echo "Liczba jest nieparzysta";
     }
+    echo "\n";
+?>
+
+<?php
+$liczba = 5;
+    switch($liczba % 2)
+    {
+        case(0):
+            echo "Liczba jest parzysta";
+        break;
+        default:
+            echo "Liczba jest nieparzysta";
+        break;
+    }
+
 ?>

@@ -1,0 +1,1 @@
+switch jest czytelniejszy i wydajniejszy. Kod jest latwiejszy do zrozumienia i skraca ilosc kodu.

@@ -1,0 +1,50 @@
+<DOCTYPE HTML>
+<html>
+<head>
+<tit1e>Formularz rejestracyjny</title>
+<meta charset="UTF-8">
+<style>
+    #fo {
+font-weight: bold;
+font-size: 14pt;
+    }
+p.wyk {
+font-weight: bold;
+font-size: 11pt;
+}
+</style>
+</head>
+<body>
+<form action="formularz.php" method="post">
+<p id="fo">Formularz rejestracyjny</p>
+Imie:<br>
+<input type="text" name="imie" value=" " size="30"><br>
+Nazwisko:<br>
+<input type="text" name="nazw" value=" " size="30"><br>
+Adres e-mail:<br>
+<input type="text" name="mail" value=" " size="30"><br>
+Adres zamieszkania:<br>
+<input type="text" name="zamieszkanie" value=" " size="30"><br>
+Poprzednia szkoła:<br>
+<input type="text" name="szkola" value=" " size="30"><br>
+
+<p class="wyk">Znajomość języków</p>
+<select name="jezyki[]" multiple>
+<option value="Język angielski">Język angielski</option>
+<option value="Język niemiecki">Język niemiecki</option>
+<option value="Język francuski">Język francuski</option>
+<option value="Język włoski">Język włoski</option>
+<option value="Język hiszpański">Język hiszpański</option>
+</select>
+
+<p class="wyk">Wybór szkoły</p>
+<input type="radio" value="liceum" name="wyborSzkoly">Liceum<br>
+<input type="radio" value="technikum" name="wyborSzkoly">Technikum<br>
+<input type="radio" value="zawodowka" name="wyborSzloly">Zawodowka<br>
+
+<p><input type="checkbox" name="opcje" maxlength="1">Zgadzam sie na prztwarzanie moich danych osobowych</p>
+<input type="submit" value="Wyślij" name="wyslij">&nbsp; &nbsp;
+<input type="reset" value="Reset" name="reset">
+</form>
+</body>
+</html>
